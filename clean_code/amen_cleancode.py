@@ -13,6 +13,8 @@ diabetes = pd.read_csv('/workspaces/SP25-Project/data/diabetic_data.csv')
 # Preview the first 10 rows 
 print(diabetes.head(10))
 
+print(diabetes.columns)
+
 # Replace missing values marked as '?' with NaN
 diabetes.replace('?', np.nan, inplace=True)
 
@@ -23,16 +25,10 @@ diabetes.drop_duplicates(inplace=True)
 columns = diabetes.columns.tolist()
 
 # List of columns to keep
-columns_to_keep = [
-    'weight',
-    'max_glu_serum',
-    'encounter_id',
-    'patient_nbr',
-    'admission_type_id',
-    'discharge_disposition_id',
-    'admission_source_id',
-    'payer_code'
-]
+columns_to_keep = ['patient_nbr', 'race', 'gender', 'age', 'weight',
+       'time_in_hospital', 'num_lab_procedures', 'num_procedures', 'num_medications',
+       'number_outpatient', 'number_emergency', 'number_inpatient','number_diagnoses', 'max_glu_serum', 'A1Cresult',
+    'change', 'readmitted']
 
 # Keep only the specified columns
 diabetes = diabetes[columns_to_keep]
