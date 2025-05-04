@@ -3,20 +3,20 @@
 
 # 2025 Spring Semester Group Project
 
-## 📋 Assignment Overview
+## Assignment Overview
 
 This project involves creating a **comprehensive presentation** that showcases your group’s full **data science pipeline**. You will apply techniques covered throughout the course, demonstrating your ability to work collaboratively, analyze complex datasets, and communicate data-driven insights effectively.
 
 ---
 
-## 👥 Group Formation
+## Group Formation
 
 - Form a group of **4 to 5 members**.  
 - If you are unable to join a group, one will be assigned to you.
 
 ---
 
-## 🛠️ Technologies & Environment
+## Technologies & Environment
 
 - Identify and describe the tools and technologies used in your data science environment (e.g., Python, Jupyter Notebooks, cloud platforms, AI).
 - Include a **network diagram**.
@@ -24,7 +24,7 @@ This project involves creating a **comprehensive presentation** that showcases y
 
 ---
 
-## 🧼 Data Retrieval & Cleaning
+## Data Retrieval & Cleaning
 
 - Explain your data retrieval process, including the **source** and **format** of the data.
 - Detail your data cleaning steps:
@@ -35,28 +35,28 @@ This project involves creating a **comprehensive presentation** that showcases y
 
 ---
 
-## 🧠 Model Development & Selection
+## Model Development & Selection
 
 - Discuss the models you evaluated (e.g., logistic regression, decision trees, random forests, neural networks).
 - Justify your final model selection based on **performance metrics**.
 
 ---
 
-## 📈 Predictive Analysis
+## Predictive Analysis
 
 - Identify the most influential **data elements and features** in predicting patient remediation within 30 days.
 - Include relevant **statistical analyses** and **significance testing**.
 
 ---
 
-## 📊 Visualizing Results
+## Visualizing Results
 
 - Create **clear and impactful visualizations** (graphs, charts, heatmaps) to communicate your findings.
 - Summarize key insights and discuss potential **real-world implications**.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 Use the following dataset for your project:  
 **Diabetes 130-US Hospitals for Years 1999–2008**  
@@ -66,7 +66,7 @@ Goal: Identify which data elements have the highest probability of readmission w
 
 ---
 
-## ⏳ Duration
+## Duration
 
 - Presentations should last approximately **1 hour**.
   - **45–50 minutes** for the presentation
